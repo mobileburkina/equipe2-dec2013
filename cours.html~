@@ -1,0 +1,20 @@
+<html>
+  <head>
+     <title> Cours html </title>
+     <script type="text/javascript" src="message.js">
+     </script>
+     <link rel="stylesheet" href="couleur.css" type="text/css"/>	
+  </head>
+  <body>
+	<h1 class="titre">bonjour tout le monde</h1>
+	<ul>
+	  <li>Accueil</li>
+          <li>Contact</li>
+	</ul>
+
+	<button type="button" onclick="showalert()"> Clique moi 
+        </button>
+  </body>
+
+</html>
+	

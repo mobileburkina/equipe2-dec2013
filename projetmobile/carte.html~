@@ -1,0 +1,32 @@
+<html>
+ <head>
+	 <!--Ici je met le viewport, les feuilles de style et les librairies jquery mobile-->
+     <title>Code du travail du Burkina Faso</title>
+     <!--Mise en place du viewport-->
+     <meta name="viewport" content="width=device-width,initial-scale=1"/>
+     <!--lier la feuille de style-->
+     <link rel="stylesheet" href="libs/jquery.mobile-1.3.2.css"/>
+     <!--Inclurer les librairies Jquery et Jquery mobile-->
+     <script type="text/javascript" src="libs/jquery-1.9.1.min.js"></script>
+     <script type="text/javascript" src="libs/jquery.mobile-1.3.2.min.js"></script>
+    <script type="text/javascript" src="libs/jquery.ui.map.js"></script>
+   <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+ </head>
+ <body>
+    <div data-role="page" id="article2">
+	 <div data-role="header">
+	  <!--Entete de la page-->
+         <a href="#disposition" data-icon="home" data-iconpos="notext"></a>
+         </div>
+	 <div data-role="content">
+	 <!--Contenu de la page-->
+         <p> <h3>Article2:</h3>  Est consid&eacute;r&eacute;e comme travailleur , au sens de la pr&eacute;sente loi, toute personne qui s’est engag&eacute;e à mettre son activit&eacute; professionnelle moyennant r&eacute;mun&eacute;ration, sous la direction et l’autorit&eacute; d’une autre personne, physique ou morale, publique ou priv&eacute;e, appel&eacute;e employeur.  </p>
+	<p>Pour la d&eacute;termination de la qualit&eacute; de travailleur, il n’est tenu compte ni du statut juridique de l’employeur ni de celui de l’employ&eacute;. </p>
+         </div>
+         <div data-role="footer">
+	  <!--Pied de  page-->
+         <h5> Copyright &copy; 2013</h5>
+         </div>
+     </div> 
+  </body>
+</html>

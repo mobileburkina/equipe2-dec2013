@@ -1,0 +1,25 @@
+<html>
+ <head>
+
+ </head>
+ <body>
+    <div data-role="page" id="article2">
+	 <div data-role="header">
+	  <!--Entete de la page-->
+         <a href="#disposition" data-icon="home" data-iconpos="notext"></a>
+	 <h1>Code du travail Burkinab&eacute;</h1>
+         </div>
+	 <div data-role="content">
+	 <!--Contenu de la page-->
+         <h2>TITRE I - DISPOSITIONS GENERALES</h2>
+	<!--Ceci est un bouton-->
+         <!--<a href="#" data-role="button" data-icon="home" data-theme="b">Clique moi</a>-->
+	 <p> Article1: La présente loi est applicable aux travailleurs et aux employeurs exerçant leur activité professionnelle au Burkina Faso. </p>
+         </div>
+         <div data-role="footer">
+	  <!--Pied de  page-->
+         <h5> Copyright &copy; 2013</h5>
+         </div>
+     </div> 
+  </body>
+</html>

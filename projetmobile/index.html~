@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <!--Ici je met le viewport, les feuilles de style et les librairies jquery mobile-->
+     <title>Code du travail du Burkina Faso</title>
+     <!--Mise en place du viewport-->
+     <meta name="viewport" content="width=device-width,initial-scale=1"/>
+     <!--lier la feuille de style-->
+     <link rel="stylesheet" href="libs/jquery.mobile-1.3.2.css"/>
+     <!--Inclurer les librairies Jquery et Jquery mobile-->
+     <script type="text/javascript" src="libs/jquery-1.9.1.min.js"></script>
+     <script type="text/javascript" src="libs/jquery.mobile-1.3.2.min.js"></script>
+  </head>
+  <body>
+     <div data-role="page" id="pageprincipale">
+     <!--ceci est une page à divise en 3 parties-->
+	 <div data-role="header" data-theme="b">
+	  <!--Entete de la page-->
+	   <p  style="float:left;"><img src="droit.jpg" alt="droit" height="128" width="128" /></p>
+	   <p  style="line-height:115px"; align="center" font-size=16> CODE DU TRAVAIL BURKINABE</p>
+	 
+         </div>
+         <div data-role="content">
+	 <!--Contenu de la page-->
+         <p>Nul n'est sens&eacute; ignorer la loi.</p>
+	<!--Ceci est un bouton-->
+         <!--<a href="#" data-role="button" data-icon="home" data-theme="b">Clique moi</a>-->
+	 <ul data-role="listview" data-inset=true >
+	    <li><a href="#disposition">Titre I: Dispositions G&eacute;n&eacute;rales</a></li>
+	    <li><a href="#emploi">Titre II: Emploi,Formation et orientations professionnelles</a></li>
+	    <li><a href="#relation">Titre III: Relations professionnelles</a></li>
+            <li><a href="#">Titre IV: Conditions G&eacute;n&eacute;rales de travail</a></li>
+            <li><a href="#">Titre V: S&eacute;curit&eacute; et sant&eacute; au travail, services sociaux d entreprise</a></li>
+            <li><a href="#">Titre VI: Institutions professionnelles</a></li>
+            <li><a href="#">Titre VII:Diff&eacute;rends du travail </a></li>
+            <li><a href="#">Titre VIII: Organismes et moyens d'&eacute;x&eacute;cution </a></li>
+            <li><a href="#">Titre IX: P&eacute;nalit&eacute;s</a></li>
+            <li><a href="#">Titre X: Dispositions transitoires et finales</a></li>
+	 </ul>
+
+         </div>
+       
+	 <div data-role="footer">
+	  <!--Pied de  page-->
+         <h5> Copyright &copy; 2013</h5>
+         </div>
+     </div>
+     <div data-role="page" id="disposition">
+	 <div data-role="header">
+	  <!--Entete de la page-->
+         <a href="#pageprincipale" data-icon="home" data-iconpos="notext"></a>
+	 <h1>Code du travail Burkinab&eacute;</h1>
+         </div>
+	 <div data-role="content">
+	 <!--Contenu de la page-->
+         <p>Nul n'est sens&eacute; ignorer la loi.</p>
+	<!--Ceci est un bouton-->
+         <!--<a href="#" data-role="button" data-icon="home" data-theme="b">Clique moi</a>-->
+	 <ul data-role="listview" data-inset=true data-filter=true>
+	    <li><a href="#article1">Article1</a></li>
+	    <li><a href="article2.html">Article2</a></li>
+	    <li><a href="article3.html">Article3</a></li>
+            <li><a href="article4.html">Article4</a></li>
+            <li><a href="article5.html">Article5</a></li>
+            <li><a href="article6.html">Article6</a></li>
+            
+	 </ul>
+
+         </div>
+         <div data-role="footer">
+	  <!--Pied de  page-->
+         <h5> Copyright &copy; 2013</h5>
+         </div>
+     </div>
+     <div data-role="page" id="emploi">
+	 <div data-role="header">
+	  <!--Entete de la page-->
+         <a href="#pageprincipale" data-icon="home" data-iconpos="notext"></a>
+	 <h1>Code du travail Burkinab&eacute;</h1>
+         </div>
+	 <div data-role="content">
+	 <!--Contenu de la page-->
+         <h2>Emploi, Formation et orientation professionnelles, placement et activite de travail temporaire</h2>
+	<!--Ceci est un bouton-->
+         <!--<a href="#" data-role="button" data-icon="home" data-theme="b">Clique moi</a>-->
+	 <ul data-role="listview" data-inset=true data-filter=true>
+	    <li><a href="#">Article7</a></li>
+	    <li><a href="#">Article8</a></li>
+	    <li><a href="#">Article9</a></li>
+            <li><a href="#">Article10</a></li>
+            <li><a href="#">Article11</a></li>
+            <li><a href="#">Article12</a></li>
+            <li><a href="#">Article13</a></li>
+            <li><a href="#">Article14</a></li>
+            <li><a href="#">Article15</a></li>
+	    <li><a href="#">Article16</a></li>
+	    <li><a href="#">Article17</a></li>
+            <li><a href="#">Article18</a></li>
+            <li><a href="#">Article19</a></li>
+            <li><a href="#">Article20</a></li>
+            <li><a href="#">Article21</a></li>
+            <li><a href="#">Article22</a></li>
+            <li><a href="#">Article23</a></li>
+	    <li><a href="#">Article24</a></li>
+	    <li><a href="#">Article25</a></li>
+            <li><a href="#">Article26</a></li>
+            <li><a href="#">Article27</a></li>
+            <li><a href="#">Article28</a></li>
+	 </ul>
+         </div>
+         <div data-role="footer">
+	  <!--Pied de  page-->
+         <h5> Copyright &copy; 2013</h5>
+         </div>
+     </div>
+   <div data-role="page" id="relation">
+	 <div data-role="header">
+	  <!--Entete de la page-->
+         <a href="#pageprincipale" data-icon="home" data-iconpos="notext"></a>
+	 <h1>Code du travail Burkinab&eacute;</h1>
+         </div>
+	 <div data-role="content">
+	 <!--Contenu de la page-->
+         <h2>Relations professionnelles</h2>
+	<!--Ceci est un bouton-->
+         <!--<a href="#" data-role="button" data-icon="home" data-theme="b">Clique moi</a>-->
+	 <ul data-role="listview" data-inset=true data-filter=true>
+	    <li><a href="#">Article29</a></li>
+	    <li><a href="#">Article30</a></li>
+	    <li><a href="#">Article31</a></li>
+            <li><a href="#">Article32</a></li>
+            <li><a href="#">Article33</a></li>
+            <li><a href="#">Article34</a></li>
+            <li><a href="#">Article35</a></li>
+            <li><a href="#">Article36</a></li>
+            <li><a href="#">Article37</a></li>
+	    <li><a href="#">Article38</a></li>
+	    <li><a href="#">Article39</a></li>
+            <li><a href="#">Article40</a></li>
+            <li><a href="#">Article41</a></li>
+            <li><a href="#">Article42</a></li>
+            <li><a href="#">Article43</a></li>
+            <li><a href="#">Article44</a></li>
+            <li><a href="#">Article45</a></li>
+	    <li><a href="#">Article46</a></li>
+	    <li><a href="#">Article47</a></li>
+            <li><a href="#">Article48</a></li>
+            <li><a href="#">Article49</a></li>
+            <li><a href="#">Article50</a></li>
+             <li><a href="#">Article51</a></li>
+	    <li><a href="#">Article52</a></li>
+	    <li><a href="#">Article53</a></li>
+            <li><a href="#">Article54</a></li>
+            <li><a href="#">Article55</a></li>
+            <li><a href="#">Article56</a></li>
+            <li><a href="#">Article57</a></li>
+            <li><a href="#">Article58</a></li>
+            <li><a href="#">Article59</a></li>
+	    <li><a href="#">Article60</a></li>
+	    <li><a href="#">Article61</a></li>
+            <li><a href="#">Article62</a></li>
+            <li><a href="#">Article63</a></li>
+            <li><a href="#">Article64</a></li>
+            <li><a href="#">Article65</a></li>
+            <li><a href="#">Article66</a></li>
+            <li><a href="#">Article67</a></li>
+	    <li><a href="#">Article68</a></li>
+	    <li><a href="#">Article69</a></li>
+            <li><a href="#">Article70</a></li>
+            <li><a href="#">Article71</a></li>
+            <li><a href="#">Article72</a></li>
+	    <li><a href="#">Article73</a></li>
+            <li><a href="#">Article74</a></li>
+            <li><a href="#">Article75</a></li>
+            <li><a href="#">Article76</a></li>
+	    <li><a href="#">Article77</a></li>
+	    <li><a href="#">Article78</a></li>
+            <li><a href="#">Article79</a></li>
+            <li><a href="#">Article80</a></li>
+            <li><a href="#">Article81</a></li>
+            <li><a href="#">Article82</a></li>
+            <li><a href="#">Article83</a></li>
+            <li><a href="#">Article84</a></li>
+	    <li><a href="#">Article85</a></li>
+	    <li><a href="#">Article86</a></li>
+            <li><a href="#">Article87</a></li>
+            <li><a href="#">Article88</a></li>
+            <li><a href="#">Article89</a></li>
+            <li><a href="#">Article90</a></li>
+            <li><a href="#">Article91</a></li>
+            <li><a href="#">Article92</a></li>
+	    <li><a href="#">Article93</a></li>
+	    <li><a href="#">Article94</a></li>
+            <li><a href="#">Article95</a></li>
+            <li><a href="#">Article96</a></li>
+            <li><a href="#">Article97</a></li>
+            <li><a href="#">Article98</a></li>
+            <li><a href="#">Article99</a></li>
+            <li><a href="#">Article100</a></li>
+	    <li><a href="#">Article101</a></li>
+	    <li><a href="#">Article102</a></li>
+            <li><a href="#">Article103</a></li>
+            <li><a href="#">Article104</a></li>
+            <li><a href="#">Article105</a></li>
+	    <li><a href="#">Article106</a></li>
+            <li><a href="#">Article107</a></li>
+            <li><a href="#">Article108</a></li>
+            <li><a href="#">Article109</a></li>
+	    <li><a href="#">Article110</a></li>
+	    <li><a href="#">Article111</a></li>
+            <li><a href="#">Article112</a></li>
+            <li><a href="#">Article113</a></li>
+            <li><a href="#">Article114</a></li>
+            <li><a href="#">Article115</a></li>
+            <li><a href="#">Article116</a></li>
+            <li><a href="#">Article117</a></li>
+	    <li><a href="#">Article118</a></li>
+	    <li><a href="#">Article119</a></li>
+            <li><a href="#">Article120</a></li>
+            <li><a href="#">Article121</a></li>
+            <li><a href="#">Article122</a></li>
+	    <li><a href="#">Article123</a></li>
+	    <li><a href="#">Article124</a></li>
+            <li><a href="#">Article125</a></li>
+            <li><a href="#">Article126</a></li>
+            <li><a href="#">Article127</a></li>
+	    <li><a href="#">Article128</a></li>
+            <li><a href="#">Article129</a></li>
+            <li><a href="#">Article130</a></li>
+            <li><a href="#">Article131</a></li>
+	    <li><a href="#">Article132</a></li>
+	    <li><a href="#">Article133</a></li>
+            <li><a href="#">Article134</a></li>
+            <li><a href="#">Article135</a></li>
+            <li><a href="#">Article136</a></li>
+         </ul>
+         </div>
+         <div data-role="footer">
+	  <!--Pied de  page-->
+         <h5> Copyright &copy; 2013</h5>
+         </div>
+     </div>
+    <div data-role="page" id="article1">
+	 <div data-role="header">
+	  <!--Entete de la page-->
+         <a href="#disposition" data-icon="home" data-iconpos="notext"></a>
+	 <h1>Code du travail Burkinab&eacute;</h1>
+         </div>
+	 <div data-role="content">
+	 <!--Contenu de la page-->
+         
+	<!--Ceci est un bouton-->
+         <!--<a href="#" data-role="button" data-icon="home" data-theme="b">Clique moi</a>-->
+	 <p> Article1: La pr&eacute;sente loi est applicable aux travailleurs et aux employeurs exerçant leur activit&eacute; professionnelle au Burkina Faso. </p>
+         </div>
+         <div data-role="footer">
+	  <!--Pied de  page-->
+         <h5> Copyright &copy; 2013</h5>
+         </div>
+     </div>
+  </body>
+
+</html>

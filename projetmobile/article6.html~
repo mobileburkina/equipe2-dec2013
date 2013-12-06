@@ -1,0 +1,40 @@
+<html>
+ <head>
+	 <!--Ici je met le viewport, les feuilles de style et les librairies jquery mobile-->
+     <title>Code du travail du Burkina Faso</title>
+     <!--Mise en place du viewport-->
+     <meta name="viewport" content="width=device-width,initial-scale=1"/>
+     <!--lier la feuille de style-->
+     <link rel="stylesheet" href="libs/jquery.mobile-1.3.2.css"/>
+     <!--Inclurer les librairies Jquery et Jquery mobile-->
+     <script type="text/javascript" src="libs/jquery-1.9.1.min.js"></script>
+     <script type="text/javascript" src="libs/jquery.mobile-1.3.2.min.js"></script>
+ </head>
+ <body>
+    <div data-role="page" id="article2">
+	 <div data-role="header">
+	  <!--Entete de la page-->
+         <a href="#disposition" data-icon="home" data-iconpos="notext"></a>
+         </div>
+	 <div data-role="content">
+	 <!--Contenu de la page-->
+         <p> <h3>Article6:</h3> :N’est pas considéré comme travail forcé ou obligatoire au sens de la pr&eacute;sente loi :
+	  <ol>
+	      <li>tout travail ou service exigé d’un individu en vertu des lois nationales sur le service militaire et affecté à des travaux à caractère militaire ; </li> 
+	      <li> tout travail ou service découlant des obligations civiques normales des citoyens ; </li>
+	      <li> tout travail ou service exigé d’un individu résultant d’une condamnation judiciaire, à condition que ce travail soit exécuté sous la surveillance et le contrôle des autorités publiques et que ledit individu ne soit ni concédé, ni mis à la disposition de
+particuliers, compagnies ou personnes morales privées à l’exception des associations d’utilité publique ; </li>
+	      <li>tout travail ou service exigé en cas de circonstance mettant en danger ou risquant de mettre en danger la vie ou les conditions normales d’existence de tout ou partie de la communauté et en cas de force majeure.  </li>
+	  </ol>
+
+Les travaux ou services cités aux points 1 à 4 ci-dessus ne peuvent être
+exigés que d’adultes valides dont l’âge n’est pas présumé inférieur à dix-
+huit ans ni supérieur à quarante-cinq ans.  </p>
+         </div>
+         <div data-role="footer">
+	  <!--Pied de  page-->
+         <h5> Copyright &copy; 2013</h5>
+         </div>
+     </div> 
+  </body>
+</html>
